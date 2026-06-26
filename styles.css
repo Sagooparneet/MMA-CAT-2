@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c5f2d;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.video-container {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+}
+
+.description {
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+}
+
+button {
+    display: block;
+    margin: 1.5rem auto;
+    padding: 0.75rem 2rem;
+    background-color: #2c5f2d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e4620;
+}
+
+button:focus {
+    outline: 3px solid #4CAF50;
+    outline-offset: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        margin: 1rem;
+        padding: 0.75rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .description {
+        font-size: 1rem;
+    }
+    
+    button {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+    
+    .description {
+        font-size: 0.9rem;
+    }
+}
